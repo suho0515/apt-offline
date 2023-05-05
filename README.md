@@ -47,3 +47,15 @@ You can install these packages using `apt`. Run the following commands:
 $ sudo apt-get update
 $ sudo apt-get install pyqt5-dev-tools man2html-base python3-debianbts
 ```
+
+# Build and Installation
+
+To build the project, run the following command:
+```
+make build
+```
+
+To install the project (you might need root privileges), run the following command:
+```
+make install
+```
