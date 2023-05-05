@@ -18,3 +18,32 @@ This utility is an attempt in making that problem eradicate. I hope this utility
 ### Dedication
 This software is dedicated in memory of my father Santosh Kumar Sarraf. We miss you a lot.
 
+## Dependencies
+
+If you use this project directly from the source, please ensure the following modules are installed:
+
+- argparse
+- python-magic
+- soappy
+- pysimplesoap
+- lzma
+
+You can intall above modules with following command.
+```bash
+pip3 install -r requirements.txt
+```
+
+In Ubuntu 20.04 and Python 3.3+, the `lzma` library is already included, so you don't need to install it again.
+
+There are also some additional packages that need to be installed. On Debian-based systems (including Ubuntu), please ensure the following packages or their equivalents are installed:
+
+- pyqt5-dev-tools
+- man2html-base
+- python3-debianbts
+
+You can install these packages using `apt`. Run the following commands:
+
+```bash
+$ sudo apt-get update
+$ sudo apt-get install pyqt5-dev-tools man2html-base python3-debianbts
+```
