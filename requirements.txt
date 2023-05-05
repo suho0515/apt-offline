@@ -1,7 +1,7 @@
 # In case users use it directly from source, please ensure following modules
 # are installed
 argparse
-magic
+python-magic
 soappy
 lzma
 pysimplesoap
