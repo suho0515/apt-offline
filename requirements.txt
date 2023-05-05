@@ -3,7 +3,9 @@
 argparse
 python-magic
 soappy
-lzma
+# in ubuntu 20.04, python 3.3 include lzma library already.
+# you don't need to install it again.
+# lzma
 pysimplesoap
 
 
